@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Image from '../../assets/avatar-2.svg';
+import Image from '../../components/home/me.png';
 import Resume from '../../assets/resume.pdf';
 import AboutBox from './AboutBox';
 
@@ -20,62 +20,22 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
+                            Hello! I'm Swapnoneel, and I'm based in Kolakata, India. I am currently studying Computer Science and Engineering at Maulana Abul Kalam Azad University of Technology<br/><br/>
+                            I am a self-taught Developer & Programmer and a person who loves to learn new things. I have been working on my skills for quiet sometime now. I started Programming with Java and then graduated to Python. While learning, I created some projects based on them; such as a Brick Breaker’s Game, Target Practice Game, Text-toSpeech Converter and many more!!<br/><br/>
+                            Then, recently I have started learning Front-End Web-Development, and covered HTML, CSS and JavaScript...then proceeded towards Svelte & Tailwind CSS, and I’m still continuing that journey forward.<br/><br/>
+                            And, in the mean time, I was also creating some projects based of my learnings on Web-Development. I am looking forward to learn about AI-ML, Data Analytics, and Back-End Web Development in the coming future.<br/><br/>
+                            These are some topics of my excellence:
                         </p>
                         <ul className="about__list">
-                            <li>JavaScript (ES6+)</li>
-                            <li>TypeScript</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Postgres SQL</li>
-                            <li>NestJS</li>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Firebase</li>
+                            <li>Figma</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>
-
-                    {/* <div className="about__skills grid">
-                        <div className="skills__data">
-                            <div className="skills__titles">
-                                <h3 className="skills__name">Development</h3>
-                                <span className="skills__number">90%</span>
-                            </div>
-
-                            <div className="skills__bar">
-                                <span className="skills__percentage development">
-
-                                </span>
-                            </div>
-                        </div>
-
-                        <div className="skills__data">
-                            <div className="skills__titles">
-                                <h3 className="skills__name">UI/UX Design</h3>
-                                <span className="skills__number">80%</span>
-                            </div>
-
-                            <div className="skills__bar">
-                                <span className="skills__percentage ui__design">
-
-                                </span>
-                            </div>
-                        </div>
-
-                        <div className="skills__data">
-                            <div className="skills__titles">
-                                <h3 className="skills__name">Photography</h3>
-                                <span className="skills__number">60%</span>
-                            </div>
-
-                            <div className="skills__bar">
-                                <span className="skills__percentage photography">
-
-                                </span>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
 
@@ -83,5 +43,4 @@ const About = () => {
         </section>
     )
 }
-
 export default About

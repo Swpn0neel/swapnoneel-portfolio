@@ -23,7 +23,9 @@
 }
 
 .home__socials {
-  display: flex;
+  display:flex;
+  justify-content: center;
+  align-content: center;
   column-gap: 1.75rem;
   margin: 1.5rem 0;
 }
