@@ -1,31 +1,31 @@
-import Work1 from "../../assets/work-1.svg";
+import Work1 from "../../assets/Work1.PNG";
 import Work2 from "../../assets/work-2.svg";
 import Work3 from "../../assets/work-3.svg";
-
+//image should be 330pxX267px
 const Menu = [
     {
         id: 1,
         image: Work1,
-        title: "Memories App",
-        category: ["Frontend", "React"],
-        url: "https://memory-app.gregsithole.com",
-        repositoryUrl: "https://github.com/GregSithole/memories-project"
+        title: "Lab For All",
+        category: "Front-End",
+        url: "https://labforall.vercel.app",
+        repositoryUrl: "https://github.com/Swpn0neel/treasure-hacks-labforall"
     },
     {
         id: 2,
         image: Work2,
-        title: "Cryptoverse",
-        category: ["Frontend", "React"],
-        url: "https://cryptoverse.gregsithole.com",
-        repositoryUrl: "https://github.com/GregSithole/crypto-app"
+        title: "Valentine's Wish",
+        category: "Front-End",
+        url: "https://your-valentine.vercel.app",
+        repositoryUrl: "https://github.com/Swpn0neel/valentine-public"
     },
     {
         id: 3,
         image: Work3,
-        title: "Travel Advisor",
-        category: ["Frontend"],
-        url: "https://travel.gregsithole.com",
-        repositoryUrl: "https://github.com/GregSithole/travel-advisor"
+        title: "Rainbow Six : Siege Landing Page",
+        category: "UI/UX Designing",
+        url: "https://www.figma.com/file/P6Mcq6FrdFR415crTd7LmV/R6%3ASiegeLandingPage?node-id=0%3A1&t=fKQaLhOD9M1iO9fK-0",
+        repositoryUrl: "https://github.com/Swpn0neel/Figma-Designs"
     }
 ];
 

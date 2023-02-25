@@ -21,7 +21,7 @@ const Portfolio = () => {
         <section className="portfolio container section" id="portfolio">
             <h2 className="section__title">Recent Projects</h2>
 
-            <div className="portfolio__filters">
+            {/* <div className="portfolio__filters">
                 <span className={activeFilter === 0 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { setItems(Menu); setActiveFilter(0) }}>
                     All
                 </span>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("React"); setActiveFilter(4) }}>
                     React
                 </span>
-            </div>
+            </div> */}
 
             <div className="portfolio__container grid">
                 {items.map((elem) => {
@@ -57,7 +57,7 @@ const Portfolio = () => {
                                 <div className="portfolio__mask"></div>
                             </div>
 
-                            <span className="portfolio__category">{category.join(', ')}</span>
+                            <span className="portfolio__category">{category}</span>
                             <h3 className="portfolio__title">{title}</h3>
                             <a href={url} target="_blank" rel="noreferrer" className="portfolio__button">
                                 <RiLink className="portfolio__button-icon" />
@@ -65,6 +65,16 @@ const Portfolio = () => {
                             <a href={repositoryUrl} target="_blank" rel="noreferrer" className="portfolio__github-button">
                                 <RiGithubLine className="portfolio__button-icon" />
                             </a>
+
+                            {/* {url !== null? (
+                            <a href={url} target="_blank" rel="noreferrer" className="portfolio__button">
+                                <RiLink className="portfolio__button-icon" />
+                            </a>
+                            ): repositoryUrl !== null? (
+                            <a href={repositoryUrl} target="_blank" rel="noreferrer" className="portfolio__github-button">
+                                <RiGithubLine className="portfolio__button-icon" />
+                            </a>
+                            ):<></>} */}
                         </motion.div>
                     );
                 })}
