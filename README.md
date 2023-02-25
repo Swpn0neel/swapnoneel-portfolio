@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
   <a href="http://gregsithole.com">
-  <img src="./src/assets/light-logo.svg" alt="GregSithole" width="200"></a>
+  <img src="./src/components/home/me.png" alt="GregSithole" width="200"></a>
   <br>
-  Greg Sithole's Personal Website
+  Swapnoneel Saha's Personal Website
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="http://gregsithole.com" target="_blank">Greg Sithole</a>.</h4>
+<h4 align="center">A simple personal website about <a href="https://github.com/Swpn0neel" target="_blank">Swapnoneel Saha</a>.</h4>
 
 <br>
 
