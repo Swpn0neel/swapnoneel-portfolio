@@ -11,43 +11,43 @@ const Blog = () => {
             <div className="blog__container grid">
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Example</span></a>
-                        <a href="#"><img src={Image1} alt="" className='blog__img' /></a>
+                        <a href="https://swapnoneel.hashnode.dev/series/python-masterclass"><span className="blog__category">Python</span></a>
+                        <a href="https://swapnoneel.hashnode.dev/getters-and-setters-in-python"><img src={Image1} alt="" className='blog__img' /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">Example Blog</h3>
+                        <h3 className="blog__title"><a href="https://swapnoneel.hashnode.dev/getters-and-setters-in-python" style={{color: '#A7AEB9'}}>Getters & Setters</a></h3>
                         <div className="blog__meta">
-                            <span>09 February, 2022</span>
+                            <span>18 February, 2023</span>
                             <span className="blog__dot">|</span>
-                            <span>Greg</span>
+                            <span><a href="https://swapnoneel.hashnode.dev" style={{color: '#8B88B1'}}>Hashnode</a></span>
                         </div>
                     </div>
                 </div>
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Example</span></a>
-                        <a href="#"><img src={Image1} alt="" className='blog__img' /></a>
+                        <a href="https://swapnoneel.hashnode.dev/series/python-masterclass"><span className="blog__category">Python</span></a>
+                        <a href="https://swapnoneel.hashnode.dev/object-introspection-in-python"><img src={Image1} alt="" className='blog__img' /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">Example Blog</h3>
+                    <h3 className="blog__title"><a href="https://swapnoneel.hashnode.dev/object-introspection-in-python" style={{color: '#A7AEB9'}}>Object Introspection</a></h3>
                         <div className="blog__meta">
-                            <span>09 February, 2022</span>
+                            <span>7 February, 2023</span>
                             <span className="blog__dot">|</span>
-                            <span>Greg</span>
+                            <span><a href="https://swapnoneel.hashnode.dev" style={{color: '#8B88B1'}}>Hashnode</a></span>
                         </div>
                     </div>
                 </div>
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Example</span></a>
-                        <a href="#"><img src={Image1} alt="" className='blog__img' /></a>
+                        <a href="https://swapnoneel.hashnode.dev/series/python-masterclass"><span className="blog__category">Python</span></a>
+                        <a href="https://swapnoneel.hashnode.dev/os-modules-in-python"><img src={Image1} alt="" className='blog__img' /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">Example Blog</h3>
+                    <h3 className="blog__title"><a href="https://swapnoneel.hashnode.dev/os-modules-in-python" style={{color: '#A7AEB9'}}>Object Introspection</a></h3>
                         <div className="blog__meta">
-                            <span>09 February, 2022</span>
+                            <span>7 February, 2023</span>
                             <span className="blog__dot">|</span>
-                            <span>Greg</span>
+                            <span><a href="https://swapnoneel.hashnode.dev" style={{color: '#8B88B1'}}>Hashnode</a></span>
                         </div>
                     </div>
                 </div>
