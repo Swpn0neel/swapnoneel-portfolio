@@ -10,7 +10,7 @@ const Resume = () => {
 
     return (
         <section className="resume container section" id="resume">
-            <h2 className="section__title">Experience</h2>
+            <h2 className="section__title">Educational Journey</h2>
 
             <div className="resume__container">
                 <Tabs
