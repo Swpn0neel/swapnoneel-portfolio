@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="http://gregsithole.com">
-  <img src="./src/components/home/me.png" alt="GregSithole" width="200"></a>
+  <img src="./src/components/home/me.png" alt="GregSithole" width="180"></a>
   <br>
   Swapnoneel Saha's Personal Website
   <br>
