@@ -5,8 +5,10 @@
   /*=============== Colors ===============*/
   --first-color: hsl(353, 100%, 65%);
   --title-color: hsl(244, 100%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
+  /* --text-color: hsl(244, 16%, 43%);
+  --body-color: hsl(4, 5%, 84%); */
+  --text-color: hsl(245, 14%, 17%);
+  --body-color: hsl(258, 60%, 98%); 
   --container-color: #fff;
   --border-color: rgba(0, 0, 0, 0.05);
 
@@ -29,7 +31,7 @@
 
   /*=============== Border Radius ===============*/
   --border-radius: 20px;
-  
+
   /*=============== Cursor ===============*/
   cursor: default;
 }

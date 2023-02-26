@@ -57,8 +57,8 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-            <span align="center" className='home__social-link'><br></br>
-                    <p align="center"><b>⬇ FOR MORE BLOGS ⬇</b></p>
+            <span align="center"><br></br>
+                    <p align="center"><a href="https://swapnoneel.hashnode.dev/" className='home__social-link' target='_blank' rel='noreferrer'><b>⬇ FOR MORE BLOGS ⬇</b></a></p>
                     <p><a href="https://swapnoneel.hashnode.dev/" className='home__social-link' target='_blank' rel='noreferrer'><SiHashnode /></a></p>
             </span>
         </section>
