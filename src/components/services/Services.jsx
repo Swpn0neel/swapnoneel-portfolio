@@ -8,9 +8,9 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "Responsive design",
+        title: "UI/UX Designing",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+            "Creating attractive designs for websites or any other purpose using Figma & Canva",
     },
     {
         id: 2,
@@ -22,9 +22,9 @@ const data = [
     {
         id: 3,
         image: Image3,
-        title: "Mobile Development",
+        title: "Content Writing",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+            "Writing high-quality blogs or script-writing for videos in any topic as per customer's choice",
     },
 ];
 
