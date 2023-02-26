@@ -79,6 +79,37 @@ const Portfolio = () => {
                     );
                 })}
             </div>
+            {/* <br></br><br></br>
+            <div className="portfolio__container grid">
+                {items.map((elem) => {
+                    const { id, image, title, category, url, repositoryUrl } = elem;
+
+                    return (
+                        <motion.div
+                            layout
+                            animate={{ opacity: 1 }}
+                            initial={{ opacity: 0 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="portfolio__card"
+                            key={id}>
+                            <div className="portfolio__thumbnail">
+                                <img src={image} alt="" className="portfolio__img" />
+                                <div className="portfolio__mask"></div>
+                            </div>
+
+                            <span className="portfolio__category">{category}</span>
+                            <h3 className="portfolio__title">{title}</h3>
+                            <a href={url} target="_blank" rel="noreferrer" className="portfolio__button">
+                                <RiLink className="portfolio__button-icon" />
+                            </a>
+                            <a href={repositoryUrl} target="_blank" rel="noreferrer" className="portfolio__github-button">
+                                <RiGithubLine className="portfolio__button-icon" />
+                            </a>
+                        </motion.div>
+                    );
+                })}
+            </div> */}
         </section>
     );
 };

@@ -25,6 +25,7 @@ const Contact = (props) => {
             email,
             subject,
             message,
+            to_email: 'swapnoneelsaha111@gmail.com'
         };
 
         emailjs
