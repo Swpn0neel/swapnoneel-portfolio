@@ -29,9 +29,10 @@ function App() {
                 <About />
                 <Services />
                 <Resume />
+                <Blog />
                 <Portfolio />
                 {/* <Testimonials /> */}
-                <Blog />
+                
                 <Contact theme={theme} />
             </main>
         </div>

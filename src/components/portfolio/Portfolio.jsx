@@ -18,7 +18,7 @@ const Portfolio = () => {
     };
 
     return (
-        <section className="portfolio container section" id="portfolio">
+        <section className="portfolio container section" id="portfolio" style={{ marginTop: '2%', paddingTop: '2%' }}>
             <h2 className="section__title">Recent Projects</h2>
 
             {/* <div className="portfolio__filters">
@@ -39,7 +39,7 @@ const Portfolio = () => {
                 </span>
             </div> */}
 
-            <div className="portfolio__container grid">
+            <div className="portfolio__container grid" style={{ marginTop: '%' }}>
                 {items.map((elem) => {
                     const { id, image, title, category, url, repositoryUrl } = elem;
 
