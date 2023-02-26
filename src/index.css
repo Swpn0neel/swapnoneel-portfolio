@@ -29,6 +29,9 @@
 
   /*=============== Border Radius ===============*/
   --border-radius: 20px;
+  
+  /*=============== Cursor ===============*/
+  cursor: default;
 }
 
 [data-theme="dark"] {
