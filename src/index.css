@@ -173,6 +173,11 @@ img {
   font-weight: var(--font-bold);
 }
 
+.btn:hover {
+  animation: button-push 0.3s linear 1;
+}
+
+
 @keyframes button-push {
   50% {
     transform: scale(0.8);
@@ -183,6 +188,15 @@ img {
   }
 }
 
-.btn:hover {
-  animation: button-push 0.3s linear 1;
+/* ===========Scroll-bar Design========== */
+
+/* ::-webkit-scrollbar-track {
+  background-color: #f80000;
 }
+::-webkit-scrollbar-thumb {
+  background-color: #00ff00;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #0026ff;
+} */

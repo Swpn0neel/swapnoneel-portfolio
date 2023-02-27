@@ -27,7 +27,7 @@ const Sidebar = (props) => {
                     <img src={props.theme === 'light' ? LightLogo : Logo} alt="logo" />
                 </a>
 
-                <nav className="nav">
+                <nav className="nav" style={{alignItems: 'center'}}>
                     <div className="nav__menu">
                         <ul className="nav__list">
                             <li className="nav__item">

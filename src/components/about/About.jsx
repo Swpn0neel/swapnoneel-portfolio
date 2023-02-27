@@ -29,6 +29,8 @@ const About = () => {
                         <ul className="about__list">
                             <li>HTML & CSS</li>
                             <li>JavaScript</li>
+                            <li>Svelte</li>
+                            <li>Bootstrap & Tailwind CSS</li>
                             <li>Java</li>
                             <li>Python</li>
                             <li>Firebase</li>
