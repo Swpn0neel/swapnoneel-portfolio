@@ -11,7 +11,7 @@
 
 <br>
 
-![screenshot](https://raw.githubusercontent.com/Swpn0neel/swapnoneel-portfolio/main/src/assets/screenshot.png?token=GHSAT0AAAAAAB4T4MNM4EDSDJBNOTBH7PJWY74YNSQ)
+![screenshot](https://raw.githubusercontent.com/Swpn0neel/swapnoneel-portfolio/main/src/assets/screenshot.png?token=GHSAT0AAAAAAB4T4MNMNTRZS2MXOHEO3XEOY745ZJA)
 
 ## How To Use
 
