@@ -11,7 +11,7 @@
 
 <br>
 
-![screenshot](https://raw.githubusercontent.com/Swpn0neel/swapnoneel-portfolio/main/src/assets/screenshot.png?token=GHSAT0AAAAAAB4T4MNMPETZ7FVD2APZU6SKY75A5UQ)
+![screenshot](https://raw.githubusercontent.com/Swpn0neel/swapnoneel-portfolio/main/src/assets/screenshot.png?token=GHSAT0AAAAAAB4T4MNNG5EPOJG5IPNQBLIMY76CO4A)
 
 ## How To Use
 
@@ -28,5 +28,5 @@ $ cd swapnoneel-portfolio
 $ yarn install
 
 # Run the app
-$ yarn start
+$ yarn dev
 ```
