@@ -190,13 +190,16 @@ img {
 
 /* ===========Scroll-bar Design========== */
 
-/* ::-webkit-scrollbar-track {
-  background-color: #f80000;
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: #bebebe;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #00ff00;
+  background-color: #807e7e;
   border-radius: 10px;
 }
-::-webkit-scrollbar-corner {
-  background-color: #0026ff;
-} */
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}

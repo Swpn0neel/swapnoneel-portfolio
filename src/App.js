@@ -33,7 +33,6 @@ function App() {
         <Resume />
         <Blog />
         <Portfolio />
-
         <Contact theme={theme} />
       </main>
     </div>
