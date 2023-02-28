@@ -11,7 +11,7 @@
 
 <br>
 
-![screenshot](https://raw.githubusercontent.com/Swpn0neel/swapnoneel-portfolio/main/src/assets/screenshot.png?token=GHSAT0AAAAAAB4T4MNNG5EPOJG5IPNQBLIMY76CO4A)
+![screenshot](https://raw.githubusercontent.com/Swpn0neel/Todo-beeceptor/main/src/screenshot.PNG)
 
 ## How To Use
 
