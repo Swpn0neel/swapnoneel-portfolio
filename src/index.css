@@ -197,9 +197,9 @@ img {
   background-color: #bebebe;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #807e7e;
+  background-color: #686868;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: #555;
+  background: #494949;
 }

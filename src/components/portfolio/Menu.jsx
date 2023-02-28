@@ -4,6 +4,14 @@ import Work3 from "../../assets/Work3.png";
 //image should be 330pxX267px
 const Menu = [
     {
+        id: 3,
+        image: Work3,
+        title: "The Magnificent Seven",
+        category: "Web Development",
+        url: "https://magnificent-seven.vercel.app",
+        repositoryUrl: "https://github.com/Swpn0neel/TheMagnificentSeven"
+    },
+    {
         id: 1,
         image: Work1,
         title: "Lab For All",
@@ -18,14 +26,6 @@ const Menu = [
         category: "Web Development",
         url: "https://your-valentine.vercel.app",
         repositoryUrl: "https://github.com/Swpn0neel/valentine-public"
-    },
-    {
-        id: 3,
-        image: Work3,
-        title: "The Magnificent Seven",
-        category: "Web Development",
-        url: "https://magnificent-seven.vercel.app",
-        repositoryUrl: "https://github.com/Swpn0neel/TheMagnificentSeven"
     },
     // {
     //     id: 4,
