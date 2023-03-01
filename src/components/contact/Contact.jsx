@@ -23,7 +23,7 @@ const Contact = (props) => {
     ) {
       return toast.error("Please complete the form above");
     }
-
+    
     setLoading(true);
 
     const data = {
@@ -51,6 +51,10 @@ const Contact = (props) => {
         // console.log(error);
         // toast.error(error.text);
       });
+      nameRef.current.value="";
+      emailRef.current.value="";
+      subjectRef.current.value="";
+      messageRef.current.value="";
   };
 
   return (
