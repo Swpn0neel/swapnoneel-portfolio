@@ -20,7 +20,7 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Swapnoneel, and I'm based in Kolakata, India. I am currently studying Computer Science and Engineering at Maulana Abul Kalam Azad University of Technology<br/><br/>
+                            Hello! I'm Swapnoneel, and I'm based in Kolkata, India. I am currently studying Computer Science and Engineering at Maulana Abul Kalam Azad University of Technology<br/><br/>
                             I am a self-taught Developer & Programmer and a person who loves to learn new things. I have been working on my skills for quiet sometime now. I started Programming with Java and then graduated to Python. While learning, I created some projects based on them; such as a Brick Breaker’s Game, Target Practice Game, Text-toSpeech Converter and many more!!<br/><br/>
                             Then, recently I have started learning Front-End Web-Development, and covered HTML, CSS and JavaScript...then proceeded towards Svelte & Tailwind CSS, and I’m still continuing that journey forward.<br/><br/>
                             And, in the mean time, I was also creating some projects based of my learnings on Web-Development. I am looking forward to learn about AI-ML, Data Analytics, and Back-End Web Development in the coming future.<br/><br/>
