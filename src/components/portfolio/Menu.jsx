@@ -1,4 +1,4 @@
-import Work1 from "../../assets/Work1.PNG";
+import Work1 from "../../assets/Work1.png";
 import Work2 from "../../assets/Work2.png";
 import Work3 from "../../assets/Work3.png";
 //image should be 330pxX267px
