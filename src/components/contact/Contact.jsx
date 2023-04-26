@@ -36,10 +36,10 @@ const Contact = (props) => {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         data,
-        process.env.REACT_APP_EMAILJS_PUBLIC_API
+        import.meta.env.VITE_EMAILJS_PUBLIC_API
       )
       .then(() => {
         setLoading(false);
