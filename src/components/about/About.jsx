@@ -36,7 +36,17 @@ const About = () => {
                             <li>Firebase</li>
                             <li>Figma</li>
                         </ul>
-                        <button className="btn" onClick={downloadResume}>Donwload CV</button>
+                        <button class="blob-btn" onClick={downloadResume}>
+                            Donwload CV
+                            <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                            </span>
+                            </span>
+                        </button>
                     </div>
                 </div>
             </div>
