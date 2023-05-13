@@ -111,9 +111,17 @@ const Contact = (props) => {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn">
-            {loading ? "Sending..." : "Send Message"}
-          </button>
+          <button type="submit" class="blob-btn" >
+          {loading ? "Sending..." : "Send Message"}
+                            <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                            </span>
+                            </span>
+                        </button>
         </form>
         <ToastContainer position="bottom-right" theme={props.theme} />
       </div>
