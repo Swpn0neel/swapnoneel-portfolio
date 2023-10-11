@@ -31,7 +31,7 @@ const Contact = (props) => {
       email: emailRef.current.value,
       subject: subjectRef.current.value,
       message: messageRef.current.value,
-      to_email: "bimalkumarsaha06@gmail.com",
+      to_email: "sritama.dhara04@gmail.com",
     };
 
     emailjs
