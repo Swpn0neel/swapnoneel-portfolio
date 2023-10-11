@@ -21,7 +21,7 @@ const Contact = (props) => {
       !subjectRef.current.value ||
       !messageRef.current.value
     ) {
-      return toast.error("Please complete the form above");
+      return toast.error("Abhi form fill up kare !!!");
     }
     
     setLoading(true);
