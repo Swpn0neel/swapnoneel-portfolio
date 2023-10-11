@@ -5,11 +5,7 @@ import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import "react-toastify/dist/ReactToastify.css";
 
-const Contact = (props) => {
-  const nameRef = useRef();
-  const emailRef = useRef();
-  const subjectRef = useRef();
-  const messageRef = useRef();
+
 
   const [loading, setLoading] = useState(false);
 
