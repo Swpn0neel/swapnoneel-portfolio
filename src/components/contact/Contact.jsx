@@ -11,7 +11,7 @@ const Contact = (props) => {
   const subjectRef = useRef();
   const messageRef = useRef();
 
-  const [loading, setLoading] = useState(false);
+  
 
   const submitHandler = async (e) => {
     e.preventDefault();
