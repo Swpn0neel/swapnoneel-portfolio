@@ -18,10 +18,7 @@ function App() {
     defaultDark ? "dark" : "light"
   );
 
-  const switchTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-  };
+
 
   return (
     <div className="app" data-theme={theme}>
