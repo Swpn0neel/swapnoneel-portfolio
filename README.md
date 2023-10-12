@@ -3,7 +3,7 @@
   <a href="http://gregsithole.com">
   <img src="./src/components/home/me.png" alt="GregSithole" width="180"></a>
   <br>
-  Swapnoneel Saha's Personal Website
+  Tanay Roy's Personal Website
   <br>
 </h1>
 
@@ -11,7 +11,7 @@
 
 <br>
 
-![screenshot](https://raw.githubusercontent.com/Swpn0neel/Todo-beeceptor/main/src/screenshot.PNG)
+![screenshot](https://raw.githubusercontent.com/tanay/Todo-beeceptor/main/src/screenshot.PNG)
 
 ## How To Use
 
@@ -19,10 +19,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Swpn0neel/swapnoneel-portfolio
+$ git clone https://github.com/tanay/tanay-portfolio
 
 # Go into the repository
-$ cd swapnoneel-portfolio
+$ cd tanay-portfolio
 
 # Install dependencies
 $ yarn install
