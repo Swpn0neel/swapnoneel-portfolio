@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.6.2",
+    "@emailjs/browser": "^9.9.9",
     "@vitejs/plugin-react": "^3.1.0",
     "axios": "^0.27.2",
     "framer-motion": "^6.5.1",

@@ -43,7 +43,7 @@ const Contact = (props) => {
       )
       .then(() => {
         setLoading(false);
-        toast.success(`Successfully sent email.`);
+        toast.success(`Successfully sent email. If you didn't received kindly kindly wait and check the spam folder`);
       })
       .catch((error) => {
         // todo: add error handler
