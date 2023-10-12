@@ -13,16 +13,7 @@ const Contact = (props) => {
 
   const [loading, setLoading] = useState(false);
 
-  const submitHandler = async (e) => {
-    e.preventDefault();
-    if (
-      !nameRef.current.value ||
-      !emailRef.current.value ||
-      !subjectRef.current.value ||
-      !messageRef.current.value
-    ) {
-      return toast.error("Please complete the form above");
-    }
+  
     
     setLoading(true);
 
