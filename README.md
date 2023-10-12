@@ -3,11 +3,11 @@
   <a href="http://gregsithole.com">
   <img src="./src/components/home/me.png" alt="GregSithole" width="180"></a>
   <br>
-  Swapnoneel Saha's Personal Website
+  TAMOJIT's Personal Website
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="https://github.com/Swpn0neel" target="_blank">Swapnoneel Saha</a>.</h4>
+<h4 align="center">A simple personal website about <a href="https://github.com/Swpn0neel" target="_blank">TAMOJIT MANDAL</a>.</h4>
 
 <br>
 
